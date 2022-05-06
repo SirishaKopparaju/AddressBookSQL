@@ -28,4 +28,4 @@ select * from addressbook;
 DELETE from addressbook WHERE id = 1;
 SELECT * FROM addressbook WHERE firstname = 'siri';
 SELECT * from addressbook where city = 'HYD' OR state = 'TS';
-
+SELECT  city, state, COUNT(*) from addressbook where city = 'HYD' AND state = 'Telangana';
