@@ -41,3 +41,4 @@ update addressbook set ab_name = 'AddressBook3' where id IN (3,4);
 update addressbook set ab_type = 'family' where id = 1;
 update addressbook set ab_type = 'friends' where id = 2;
 update addressbook set ab_type = 'profession' where id IN(3,4);
+SELECT ab_type, COUNT(*) FROM addressbook GROUP BY ab_type;
