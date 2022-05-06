@@ -13,3 +13,8 @@ CREATE TABLE addressBook (
 );
 desc addressBook;
 
+INSERT INTO addressbook VALUES
+(1,'sirisha','kopparaju','TS','HYD','Telangana','424112','1234567890', 'sirisha@gmail.com'),
+(2,'sowjanya','vadlamani','TS','HYD','Telangana','420166','9191919291', 'sowjanya@gmail.com'),
+(3,'kittu','Krishna','TS','HYD','Telangana','487879','4567890125', 'kittu@yahoo.com'),
+(4,'arun','banti','TS','MB','Telangana','43342','6577567890', 'arun@gmail.com');
